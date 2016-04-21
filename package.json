@@ -1,0 +1,22 @@
+{
+  "name": "my_site",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrauch/mySite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebrauch/mySite/issues"
+  },
+  "homepage": "https://github.com/ebrauch/mySite#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
