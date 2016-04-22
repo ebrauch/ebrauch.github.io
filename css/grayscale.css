@@ -378,6 +378,14 @@ body {
     height: 100%;
 }
 
-#about, #portfolio, #contact {
+#about, #contact {
     padding-top: 100px;
+}
+
+#portfolio {
+    padding-top: 50px;
+}
+
+.links {
+    font-size: 300%;
 }
