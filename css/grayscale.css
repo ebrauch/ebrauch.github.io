@@ -382,6 +382,10 @@ body {
     padding-top: 100px;
 }
 
+#about {
+    min-height: 100%;
+}
+
 #portfolio {
     padding-top: 50px;
 }
