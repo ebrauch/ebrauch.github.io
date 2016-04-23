@@ -384,6 +384,7 @@ body {
 
 #about {
     min-height: 100%;
+    margin-bottom: 100px;
 }
 
 #portfolio {
