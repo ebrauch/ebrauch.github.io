@@ -259,12 +259,12 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    /*background-color: #000;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+    /*-o-background-size: cover;*/
 }
 
 #map {
@@ -314,6 +314,7 @@ a:focus {
 
 ul.banner-social-buttons {
     margin-top: 0;
+    white-space:nowrap;
 }
 
 @media(max-width:1199px) {
@@ -327,6 +328,7 @@ ul.banner-social-buttons {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+        display: inline-block;
     }
 
     ul.banner-social-buttons li:last-child {
@@ -382,15 +384,38 @@ body {
     padding-top: 100px;
 }
 
-#about {
+#about, #intro {
     min-height: 100%;
     margin-bottom: 100px;
 }
 
 #portfolio {
-    padding-top: 50px;
+    padding-top: 0px;
+    min-height: 100%;
 }
 
 .links {
     font-size: 300%;
+}
+
+.portfolio-item {
+    border: 2px solid #42DCA3;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
+}
+
+.portfolio-item p {
+    font-size: 1.2em;
+}
+
+.portfolio-img {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.portfolio-link {
+    color: white;
 }
