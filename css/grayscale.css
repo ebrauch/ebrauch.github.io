@@ -257,7 +257,7 @@ a:focus {
 
 .portfolio-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
     /*background-color: #000;*/
@@ -279,7 +279,7 @@ a:focus {
     }
 
     .portfolio-section {
-        padding: 100px 0;
+        padding-top: 100px 0;
     }
 
     #map {
@@ -418,4 +418,8 @@ body {
 
 .portfolio-link {
     color: white;
+}
+
+.intro {
+    min-height: 100%;
 }
