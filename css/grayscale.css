@@ -390,7 +390,7 @@ body {
 }
 
 #portfolio {
-    padding-top: 0px;
+    padding-top: 100px;
     min-height: 100%;
 }
 
@@ -422,4 +422,12 @@ body {
 
 .intro {
     min-height: 100%;
+}
+
+.img-responsive {
+    border-radius: 10px;
+}
+
+.bottom-row {
+    margin-top: 100px;
 }
