@@ -431,3 +431,7 @@ body {
 .bottom-row {
     margin-top: 100px;
 }
+
+.list-inline {
+    margin-left: 0px;
+}
