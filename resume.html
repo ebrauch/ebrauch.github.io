@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if !IE]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
 <head>
     <title>Resume</title>
     <!-- Meta -->
@@ -24,6 +25,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">mid = '481-8'; ac = '970'; first = 'evan.'; second = 'brauch@gm'</script>
 </head> 
 
 <body>
@@ -37,8 +39,8 @@
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: evan.brauch@gmail.com">evan.brauch@gmail.com</a></li>
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:970-481-8788">(970) 481-8788</a></li>
+                    <li class="email"><i class="fa fa-envelope"></i><a id="write"><script>document.write(first + second + 'ail.com')</script></a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a id="call"><script>document.write('(' + ac + ') ' + mid + '788')</script></a></li>
                     <li class="website"><i class="fa fa-globe"></i><a href="http://ebrauch.github.io#portfolio" target="_blank">Portfolio</a></li>
 <!--                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="#" target="_blank">linkedin.com/in/alandoe</a></li>-->
                     <li class="github"><i class="fa fa-github"></i><a href="https://www.github.com/ebrauch" target="_blank">GitHub</a></li>
@@ -136,8 +138,6 @@
                         <div class="company">Department of the Army</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <!--<p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  -->
-                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>-->
                         <ul>
                             <li>Ensured organizational requirements were met after 26 percent reduction in operational funds from fiscal year 2014 to 2015</li>
                             <li>Created and monitored execution of phased financial obligation plans for Colorado National Guard’s operations, maintenance, and expendable supply budgets, totaling $8,150,500.00 annually</li>
@@ -238,7 +238,10 @@
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript">document.getElementById('call').setAttribute('href', 'tel:' + ac + '-' + mid + '788');
+        document.getElementById('write').setAttribute('href', 'mailto:' + first + second + 'ail.com');
+    </script>
 </body>
 </html> 
 
