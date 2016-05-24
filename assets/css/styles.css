@@ -16,6 +16,7 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 400px;
 }
 h1,
 h2,
@@ -300,13 +301,16 @@ svg {
 }
 
 .client {
-  display: inline;
-  float: left;
+  display: inline-block;
+  width: 45%;
 }
 
 .server {
-  display: inline;
-  float: right;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin-left: 10px;
+  float: right
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
