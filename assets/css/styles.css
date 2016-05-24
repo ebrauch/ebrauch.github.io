@@ -298,5 +298,15 @@ p {
 svg {
     max-height: 100px;
 }
+
+.client {
+  display: inline;
+  float: left;
+}
+
+.server {
+  display: inline;
+  float: right;
+}
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
